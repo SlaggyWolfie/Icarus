@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1902239717242850}
+  m_IsPrefabParent: 1
+--- !u!1 &1902239717242850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4859251406276510}
+  - component: {fileID: 114680943818990768}
+  - component: {fileID: 114877217744288844}
+  m_Layer: 0
+  m_Name: Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4859251406276510
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902239717242850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114680943818990768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902239717242850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9b47968cedd53428bbaabcd65268ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableUpdateTime: 3
+  useController: 0
+  controllerType: 0
+  hookSpeed: 10
+  maxHookDistance: 20
+  timeBeforeAllowingHookReturn: 1
+  stickRange: 2
+  pullSpeed: 40
+  distanceFromDetach: 1.5
+  legalWallShootingRange: 3
+  useInvertedControlsUpsideDown: 1
+  invertAngle: 90
+  invertVerticalOrientation: 0
+  xSensitivityController: 75
+  maxAngleXController: 0
+  ySensitivityController: 75
+  maxAngleYController: 0
+  zSensitivityController: 75
+  maxAngleZController: 0
+  xSensitivity: 20
+  maxAngleX: 0
+  ySensitivity: 20
+  maxAngleY: 0
+  zSensitivity: 20
+  maxAngleZ: 0
+  jumpRadius: 2.3
+  jumpBoostMax: 20
+  wallGlideSpeed: 10
+  interactDistance: 3
+  holdDistance: 1.4
+  holdRadiusCheck: 0.5
+  physicsBasedHolding: 1
+  holdControlToHold: 0
+  canDie: 1
+  maxHealth: 100
+  canTakeDamage: 1
+  healthRegenerates: 1
+  healthPointsRegeneration: 0.5
+  healthRegenerationDelay: 5
+  gettingDamagedCooldown: 1
+  steamDamage: 5
+  heatDamage: 7
+--- !u!114 &114877217744288844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902239717242850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac1092ca51216947b0c29dc4eee7b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 1138223074769778, guid: 3028e549432cdca42a4bf82b8c93359a, type: 2}
